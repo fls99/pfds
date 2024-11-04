@@ -3,7 +3,7 @@ some_str = input()
 def reverse_string(some_str: str) -> str:
     """
     Reverses a valid string
-    
+
     @some_str: str A random string
     @return Returns some string in reversed order
     """
@@ -15,7 +15,7 @@ def reverse_string(some_str: str) -> str:
 
 reversed_str = reverse_string(some_str)
 
-print(reverse_string)
+print(reversed_str)
 
 
 
