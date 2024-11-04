@@ -7,8 +7,11 @@ def split_list(a_list:list[int]):
     @return two lists splitted in half
 
     """
-    half = len(a_list)//2
-    return a_list[:half], a_list[half:]
+    if len(a_list)%2 == 0:
+        half = len(a_list)//2
+        return a_list[:half], a_list[half:]
+    else:
+        return None
 
 
 def rune_rumble(runes:list[int]) -> int:
@@ -38,6 +41,8 @@ def rune_rumble(runes:list[int]) -> int:
 runes = list(map(int, input().split()))
 x = rune_rumble(runes)
 print(x)
+
+x = [range(0,5)]
 
 
 
