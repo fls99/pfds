@@ -9,5 +9,6 @@ def coin_condrum(limit: int) -> int:
             current_sum += i
     return current_sum
 
-x = coin_condrum(7588)
+some_input = int(input())
+x = coin_condrum(some_input)
 print(x)
