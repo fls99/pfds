@@ -13,7 +13,7 @@ def split_list(a_list:list[int]):
 
 def rune_rumble(runes:list[int]) -> int:
     """
-    Compares the rune in a 1:1 battle for each clan and returns the total power of all matches won
+    Compares the rune in a 1:1 battle for each clan and returns the total power of the winning clan
 
     @runes: A list containing the power of each clan
     @return: Returns the winner of the battle indicated as the maximum power of all won battles
