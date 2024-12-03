@@ -35,7 +35,6 @@ class Trapezium(Quadrilateral):
 quads = input().split(sep=",")
 areas = []
 for quad in quads:
-    print(quad)
     quad_specs = quad.strip().split(sep=" ")
     
     if quad_specs[0] == "rectangle":
